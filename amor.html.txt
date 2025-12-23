@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eva, Eu Te Amo 💖</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(180deg, #ffb6c1, #ff69b4);
+            color: #fff;
+            text-align: center;
+        }
+
+        .container {
+            padding: 25px 15px;
+            max-width: 500px;
+            margin: auto;
+        }
+
+        .heart {
+            font-size: 3.5em;
+            animation: pulse 1.5s infinite;
+            margin-top: 10px;
+        }
+
+        h1 {
+            font-size: 2.3em;
+            margin: 15px 0 5px;
+        }
+
+        h2 {
+            font-size: 1.2em;
+            font-weight: normal;
+            margin-bottom: 25px;
+        }
+
+        .foto {
+            width: 100%;
+            max-width: 320px;
+            border-radius: 25px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+            margin-bottom: 25px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.25);
+            border-radius: 20px;
+            padding: 18px;
+            margin: 15px 0;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+        }
+
+        p {
+            font-size: 1.05em;
+            line-height: 1.6;
+        }
+
+        footer {
+            margin: 30px 0 15px;
+            font-size: 0.85em;
+            opacity: 0.9;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.15); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Música romântica -->
+    <audio autoplay loop>
+        <source src="https://www.bensound.com/bensound-music/bensound-love.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="container">
+        <div class="heart">💗</div>
+
+        <h1>Eva, eu te amo</h1>
+        <h2>Você é meu mundo 💕</h2>
+
+        <img src="eva.jpg" alt="Eva" class="foto">
+
+        <div class="card">
+            <p>
+                Eva, você é a melhor parte dos meus dias.<br>
+                Tudo em mim sorri quando penso em você.
+            </p>
+        </div>
+
+        <div class="card">
+            <p>
+                Seu sorriso me acalma.<br>
+                Seu abraço é meu lar.
+            </p>
+        </div>
+
+        <div class="card">
+            <p>
+                Eu escolheria você em todas as versões da vida,<br>
+                em todos os caminhos e em todos os sonhos.
+            </p>
+        </div>
+
+        <div class="card">
+            <p>
+                Prometo te amar, cuidar de você<br>
+                e estar ao seu lado sempre. 💖
+            </p>
+        </div>
+
+        <footer>
+            Feito com todo meu amor, só pra você 💗
+        </footer>
+    </div>
+
+</body>
+</html>
